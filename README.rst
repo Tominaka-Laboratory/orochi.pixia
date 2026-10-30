@@ -1,7 +1,7 @@
 .. image:: images/orochi_icon.png
    :align: center
    :width: 80px
-   :target: https://Tominaka-Laboratory.github.io/orochi.pixia
+   :target: https://github.com/Tominaka-Laboratory/orochi.pixia
    :alt: Orochi Logo
 
 ============
@@ -12,12 +12,15 @@ orochi.pixia
 .. _title: https://Tominaka-Laboratory.github.io/orochi.pixia
 
 .. |Icon| image:: images/orochi_icon.png
-   :target: https://Tominaka-Laboratory.github.io/orochi.pixia
+   :target: https://github.com/Tominaka-Laboratory/orochi.pixia
    :height: 100px
 
-|PyPi| |Forge| |PythonVersion| |PR|
+|PyPi| |Forge| |PythonVersion| |ChemRxiv| |PR|
 
 |CI| |Codecov| |Black| |Tracking|
+
+.. |ChemRxiv| image:: https://img.shields.io/badge/ChemRxiv-10.26434%2Fchemrxiv.15010802-blue.svg
+        :target: https://doi.org/10.26434/chemrxiv.15010802
 
 .. |Black| image:: https://img.shields.io/badge/code_style-black-black
         :target: https://github.com/psf/black
@@ -96,8 +99,8 @@ Citation
 
 If you use orochi.pixia in a scientific publication, please cite this package as:
 
-    S. Tominaka, *Orochi: A Physics-Grounded Python Package for Pair Distribution Function Analysis of Crystalline and Low-Dimensional Materials*, 2026.
-    https://github.com/Tominaka-Laboratory/orochi.pixia
+    S. Tominaka, *Orochi: A Physics-Grounded Python Package for Pair Distribution Function Analysis of Crystalline and Low-Dimensional Materials*, ChemRxiv (2026). DOI: 10.26434/chemrxiv.15010802
+    https://doi.org/10.26434/chemrxiv.15010802
 
 Installation
 ------------
@@ -167,8 +170,10 @@ If you use this package in academic research, please cite:
     @article{tominaka2026orochi,
       title   = {Orochi: A Physics-Grounded Python Package for Pair Distribution Function Analysis of Crystalline and Low-Dimensional Materials},
       author  = {Tominaka, Satoshi},
+      journal = {ChemRxiv},
       year    = {2026},
-      url     = {https://github.com/Tominaka-Laboratory/orochi}
+      doi     = {10.26434/chemrxiv.15010802},
+      url     = {https://doi.org/10.26434/chemrxiv.15010802}
     }
 
 Contact
